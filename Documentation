@@ -1,0 +1,242 @@
+📘 Brick Animate – Documentation
+Overview
+Brick Animate is a Blender add-on for creating stunning brick-style animations without rigging or manual keyframing. With intuitive tools like Flight, Drop, and Snap Build, you can build complex sequences and special effects with just a few clicks.
+
+🔧 Installation
+Open Blender (version 4.3 or later).
+
+Go to Edit > Preferences > Add-ons.
+
+Click Install and select the brick_animate.zip file.
+
+Enable the add-on by checking the box next to Brick Animate.
+
+The add-on will now appear in the 3D Viewport > Sidebar > Brick tab.
+
+🧱 Main Features
+▶️ Flight Animation
+Objects fly to their target positions using a control empty. You can define sorting order, timing, and interpolation for smooth, dynamic results.
+
+🟢 Drop Animation
+Simulate objects dropping into place from above. Great for exploded views or stylized part reveals.
+
+🔵 Snap Build
+Objects "snap" from a formation (cloud, ring, cube, or line) into their final positions. Optional Snap Mix mode for more variation and motion creativity.
+
+🌀 Special Movement (Circle Mode)
+Rotate selected objects around a point (or empty) to create advanced motion effects and object reveals — with optional random rotation.
+
+⚙️ UI Breakdown
+You'll find the Brick Animate panel under 3D Viewport > Sidebar > Brick. The UI is divided into expandable sections:
+
+🛠 Preparation
+Target Size: Uniform scale for selected objects.
+
+Prepare Objects: Sets origin and scales objects for consistent animation.
+
+🧩 Collection Tools
+Create new collections and assign selected objects.
+
+Choose target collection for animation.
+
+🧭 Control Empty
+Create and assign a control empty as the animation origin.
+
+🎬 Animation Settings
+Start Frame, Frame Step, Duration, Offset, and Drop Height
+
+Sort Direction: LOW, HIGH, RANDOM, or REVERSE
+
+Snap Mix Options: Mix shape (Cloud, Ring, Line, Cube) and Radius
+
+Interpolation Type: Choose from Bezier, Linear, Constant, etc.
+
+▶ Animate
+Run Flight, Drop, or Snap Build animations.
+
+Enable Live Update for real-time preview while playing the timeline.
+
+🔄 Reset
+Clears all keyframes and restores objects to their original positions.
+
+ℹ️ Support & Info
+Buttons for Documentation, Help Form, and Feedback Form
+
+🔁 Live Update
+When Live Update is enabled, any change in the settings during timeline playback automatically refreshes the animation. This is perfect for fast iteration and visual feedback.
+
+🎯 Workflow Example
+Select your objects and press Prepare Objects.
+
+Create a Collection and assign the selected objects.
+
+Create a Control Empty at the 3D cursor.
+
+Adjust Animation Settings (duration, sort, interpolation).
+
+Choose an animation type: Flight, Drop, or Snap Build.
+
+Play the animation or enable Live Update to see real-time changes.
+
+❗ Troubleshooting
+Error: “Offset must be smaller than duration”
+→ Ensure your frame offset is less than the animation duration.
+
+Objects don’t move as expected
+→ Make sure you’ve used the “Prepare Objects” button and assigned a Control Empty.
+
+Live Update not triggering
+→ Confirm that the timeline is playing and “Live Update” is enabled.
+
+📞 Support
+Need help or want to suggest a feature?
+
+📄 Documentation
+
+🆘 Help Form
+
+💡 Feedback Form
+
+✅ Version Info
+Current Version: 1.0
+
+Compatible with: Blender 4.3 and higher
+
+Author: Dominik Lübcke
+
+Möchtest du auch eine PDF-Version, ein In-App Help Overlay, oder eine kurze Quickstart-Karte? Sag einfach Bescheid!
+
+You said:
+kannst du auch die dokumentation inkl secondary movement schreiben
+ChatGPT said:
+Natürlich! Hier ist die vollständige englische Dokumentation für dein Blender-Addon Brick Animate, inklusive der Secondary Movement-Funktionen:
+
+📘 Brick Animate – Documentation
+Overview
+Brick Animate is a Blender add-on designed to bring brick-style object animations to life — no rigging, no constraints, no hassle. With tools for Flight, Drop, Snap Build, and Special Movement, it's perfect for build-ups, exploded views, creative reveals, and motion design.
+
+🔧 Installation
+Download the .zip file from Blender Market.
+
+Open Blender (version 4.3 or newer).
+
+Go to Edit > Preferences > Add-ons.
+
+Click Install, select the .zip file, and click Install Add-on.
+
+Enable the add-on by checking Brick Animate.
+
+You’ll now see a new tab called Brick in the 3D Viewport Sidebar (N key).
+
+🚀 Core Animation Features
+✈️ Flight
+Objects fly in from a control empty to their final positions. Supports custom frame offset, sorting (Top-Down, Bottom-Up, Random), and reverse mode (fly back).
+
+🪂 Drop
+Objects fall vertically from a height and land at their original locations. Great for exploded views and stylized build-ups.
+
+🔗 Snap Build
+Objects "snap" from a chosen formation (cloud, ring, line, or cube) into place. Optional Snap Mix lets them start around a central anchor before building.
+
+🔁 Live Update
+When enabled, animations update in real-time as you change parameters during timeline playback — ideal for fast iteration and testing.
+
+⚙️ UI Breakdown
+You’ll find everything under 3D View > Sidebar > Brick. The interface includes:
+
+🛠 Preparation
+Target Size: Scales selected objects uniformly.
+
+Prepare Objects: Sets origin to geometry and scales.
+
+📦 Collection Tools
+Create new collections and assign selected objects.
+
+Choose a collection to animate from the dropdown.
+
+🧭 Control Empty
+Creates a control empty used as the animation origin point.
+
+🎞 Animation Settings
+Start Frame, Frame Step, Duration, Offset
+
+Drop Height, Interpolation Type
+
+Sort Direction: LOW, HIGH, RANDOM, REVERSE
+
+Reverse Order options for Flight/Drop modes
+
+✨ Snap Build Options
+Snap Mix: Enable custom shapes (cloud, ring, cube, line)
+
+Radius and formation shape
+
+Anchored mixing around the lowest object
+
+▶ Animate
+Run Flight, Drop, or Snap Build
+
+Choose interpolation (Linear, Bezier, etc.)
+
+Enable Live Update
+
+♻ Reset
+Clears all keyframes and resets original positions
+
+📚 Support & Info
+Links to documentation, help form, and feedback form
+
+🎯 Typical Workflow
+Select your objects.
+
+Press Prepare Objects (optional but recommended).
+
+Create or assign a Collection.
+
+Create a Control Empty.
+
+Adjust Animation Settings.
+
+Choose an animation: Flight, Drop, or Snap Build.
+
+Press Play or enable Live Update for real-time results.
+
+🌀 Secondary Movement (Special Motion)
+This tool adds stylized circular motion to objects — great for previews, creative motion design, or special effects.
+
+Access
+Found under: 3D View > Sidebar > Brick > Special Movement
+
+How It Works
+Selected objects animate in a circular path around a center point (or an empty), with optional rotation. You can:
+
+Set Movement Type (currently "Circle")
+
+Adjust Movement Length (frame step)
+
+Define Minimum Distance to avoid collisions
+
+Add Random Rotation within defined ranges (X, Y, Z)
+
+Choose Interpolation Mode (Constant, Linear, Bezier)
+
+Use an Empty Object as the center (optional)
+
+Use Case Example
+Create stylized intros where parts orbit before snapping together, or use it to visualize components before assembly.
+
+🛠 Troubleshooting
+Problem	Solution
+Objects not animating	Ensure a valid collection and control empty are selected
+Error: Offset too large	Make sure the frame offset is less than the animation duration
+Nothing happens on playback	Enable Live Update and make sure the timeline is running
+Snap Mix not working	Ensure Snap Mix is enabled and a valid shape + radius is set
+
+📦 Version & License
+Version: 1.0
+
+Compatible with: Blender 4.3+
+
+License: GPL
+
+Author: Dominik Lübcke
