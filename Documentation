@@ -114,15 +114,20 @@ Create stylized intros where parts orbit before snapping together, or use it to 
 
 🛠 Troubleshooting
 Problem	Solution
-Objects not animating	Ensure a valid collection and control empty are selected
-Error: Offset too large	Make sure the frame offset is less than the animation duration
-Nothing happens on playback	Enable Live Update and make sure the timeline is running
-Snap Mix not working	Ensure Snap Mix is enabled and a valid shape + radius is set
+
+Objects not animating
+Ensure a valid collection and control empty are selected
+
+Error: Offset too large	
+Make sure the frame offset is less than the animation duration
+
+Nothing happens on playback	
+Enable Live Update and make sure the timeline is running.
 
 📦 Version & License
 Version: 1.0
 
-Compatible with: Blender 4.3+
+Compatible with: Blender 4.0+
 
 License: GPL
 
