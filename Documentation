@@ -1,134 +1,97 @@
-📘 Brick Animate – Documentation
+📦 Brick Animate – Documentation
 Overview
-Brick Animate is a Blender add-on designed to bring brick-style object animations to life — no rigging, no constraints, no hassle. With tools for Flight, Drop, Snap Build, and Special Movement, it's perfect for build-ups, exploded views, creative reveals, and motion design.
+Brick Animate is a Blender 4.0+ add-on designed to create modular, clean, and dynamic brick-style animations.
+It is ideal for:
 
-🔧 Installation
-Download the .zip file from Blender Market.
+Brick-based scenes
 
-Open Blender (version 4.0 or newer).
+Assembly and exploded views
 
-Go to Edit > Preferences > Add-ons.
+Educational and marketing presentations
 
-Click Install, select the .zip file, and click Install Add-on.
+The add-on provides multiple animation modes:
 
-Enable the add-on by checking Brick Animate.
+Flight – Bricks fly from a starting point to their final positions
 
-You’ll now see a new tab called Brick in the 3D Viewport Sidebar (N key).
+Dropping – Bricks fall from above and land perfectly in place
 
-🚀 Core Animation Features
-✈️ Flight
-Objects fly in from a control empty to their final positions. Supports custom frame offset, sorting (Top-Down, Bottom-Up, Random), and reverse mode (fly back).
+Snap Build – Bricks snap into place from a predefined start shape
 
-🪂 Drop
-Objects fall vertically from a height and land at their original locations. Great for exploded views and stylized build-ups.
+Special Movement – Experimental motion styles such as circular spins
 
-🔗 Snap Build
-Objects "snap" from a chosen formation (cloud, ring, line, or cube) into place. Optional Snap Mix lets them start around a central anchor before building.
+Installation
+Download the .zip file (Free or Full version).
 
-🔁 Live Update
-When enabled, animations update in real-time as you change parameters during timeline playback — ideal for fast iteration and testing.
+In Blender:
+Edit > Preferences > Add-ons > Install
 
-⚙️ UI Breakdown
-You’ll find everything under 3D View > Sidebar > Brick. The interface includes:
+Select the .zip file and click Install Add-on.
 
-🛠 Preparation
-Target Size: Scales selected objects uniformly.
+Enable the checkbox next to Brick Animate.
 
-Prepare Objects: Sets origin to geometry and scales.
+Access the panel via the Sidebar (N) under the Brick tab.
 
-📦 Collection Tools
-Create new collections and assign selected objects.
+Features
+🛠️ Animation Modes
+Mode	Description
+Flight	Objects fly in or out from a control empty
+Dropping	Objects fall straight down from above with sorting and reverse modes
+Snap Build	Snap objects into place from various start shapes (cloud, ring, line, etc.)
+Special Movement	Experimental circular or rotating motion
 
-Choose a collection to animate from the dropdown.
+🔁 Sorting Options
+Bottom to Top
 
-🧭 Control Empty
-Creates a control empty used as the animation origin point.
+Top to Bottom
 
-🎞 Animation Settings
-Start Frame, Frame Step, Duration, Offset
+Random
 
-Drop Height, Interpolation Type
+Reverse (return to origin or control empty)
 
-Sort Direction: LOW, HIGH, RANDOM, REVERSE
+🧰 Tools Included
+Create and manage collections
 
-Reverse Order options for Flight/Drop modes
+Create and animate a control empty
 
-✨ Snap Build Options
-Snap Mix: Enable custom shapes (cloud, ring, cube, line)
+Preview Snap Mix start shapes
 
-Radius and formation shape
+Live update during timeline playback
 
-Anchored mixing around the lowest object
+Restore from backup collections
 
-▶ Animate
-Run Flight, Drop, or Snap Build
+Apply or reset object locations and animations
 
-Choose interpolation (Linear, Bezier, etc.)
+📊 Comparison: Free vs Full Version
+Feature	                          Free Version	                Full Version
+Flight Mode	                        ✅ (limited)	                 ✅
+Dropping Mode                      	✅ (limited)	                 ✅
+Snap Build	                        ❌	                           ✅
+Special Movement (Circle, etc.)	    ❌	                           ✅
+Sorting (LOW / HIGH / RANDOM)	      ❌	                           ✅
+Reverse Animations	                ❌	                           ✅
+Snap Mix Shapes (Cloud, Ring)	      ❌	                           ✅
+Live Timeline Update	              ❌	                           ✅
+Control Empty Animation Options	    ❌	                           ✅ 
+Backup / Restore Tools	            ❌	                           ✅
+Support Access	                    ❌	                           ✅ 
 
-Enable Live Update
+🔍 Use Cases
+Product showcases for brick-based models
 
-♻ Reset
-Clears all keyframes and resets original positions
+Instructional animations
 
-📚 Support & Info
-Links to documentation, help form, and feedback form
+Educational kits and robotics
 
-🎯 Typical Workflow
-Select your objects.
+Stylized motion graphics
 
-Press Prepare Objects (optional but recommended).
+Build and deconstruction sequences
 
-Create or assign a Collection.
+📎 Support & Feedback
+💡 Found a bug or have a feature request?
+Use the following links:
 
-Create a Control Empty.
+📄 Documentation
 
-Adjust Animation Settings.
+🆘 Help Form
 
-Choose an animation: Flight, Drop, or Snap Build.
-
-Press Play or enable Live Update for real-time results.
-
-🌀 Secondary Movement (Special Motion)
-This tool adds stylized circular motion to objects — great for previews, creative motion design, or special effects.
-
-Access
-Found under: 3D View > Sidebar > Brick > Special Movement
-
-How It Works
-Selected objects animate in a circular path around a center point (or an empty), with optional rotation. You can:
-
-Set Movement Type (currently "Circle")
-
-Adjust Movement Length (frame step)
-
-Define Minimum Distance to avoid collisions
-
-Add Random Rotation within defined ranges (X, Y, Z)
-
-Choose Interpolation Mode (Constant, Linear, Bezier)
-
-Use an Empty Object as the center (optional)
-
-Use Case Example
-Create stylized intros where parts orbit before snapping together, or use it to visualize components before assembly.
-
-🛠 Troubleshooting
-Problem	Solution
-
-Objects not animating
-Ensure a valid collection and control empty are selected
-
-Error: Offset too large	
-Make sure the frame offset is less than the animation duration
-
-Nothing happens on playback	
-Enable Live Update and make sure the timeline is running.
-
-📦 Version & License
-Version: 1.0
-
-Compatible with: Blender 4.0+
-
-License: GPL
-
-Author: Dominik Lübcke
+💬 Feedback Form
